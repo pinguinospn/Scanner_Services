@@ -11,6 +11,19 @@ import nmap
 
 nm = nmap.PortScanner()
 
+
+print (" ____  ____  ____  _      _            ____ ___  _")
+print ("/ ___\/   _\/  _ \/ \  /|/ \  /|      /  __\\  \//")
+print ("|    \|  /  | / \|| |\ ||| |\ ||_____ |  \/| \  / ")
+print ("\___ ||  \_ | |-||| | \||| | \||\____\|  __/ / /  ")
+print ("\____/\____/\_/ \|\_/  \|\_/  \|      \_/   /_/   ")
+print ("                                                  ")
+print ("____ ___  _   _      _  _  _______               ")
+print ("/  __\\  \//  / \__/|/ \/ |/ /\__  \              ")
+print ("| | // \  /   | |\/||| ||   /   /  |              ")
+print ("| |_\\ / /    | |  ||| ||   \  _\  |              ")
+print ("\____//_/     \_/  \|\_/\_|\_\/____/              ")
+
 parser = argparse.ArgumentParser(description="NMAP to find open ports by file o single")
 group = parser.add_mutually_exclusive_group(required=True)
 group.add_argument("-ip",help="Single IP - 192.168.1.2, Segments 192.168.0/24")
