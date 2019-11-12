@@ -6,6 +6,6 @@ Examples to Execute.
 scanner_Services.py -ip 192.168.0.2
 scanner_Services.py -ip 192.168.0/24
 
-# scanner_Services.py -file <your path file>
+scanner_Services.py -file "your path file"
 
 The output will be create in text file with the IP name.
